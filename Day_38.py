@@ -1,15 +1,23 @@
 
-# Ex
+# Ex1
 cars = ['Ford', 'Volvo', 'BMW']
-x = cars[0]
-print(x)
+for x in cars:
+	print(x)
 print("-------------------------")
 
-cars[0] = 'Toyota'
+# Ex2
+cars.append('Honda')
 print(cars)
 print("-------------------------")
 
-x = len(cars)
-print(x)
+
+# Ex3
+cars.pop(1)
+print(cars)
 print("-------------------------")
 
+'''
+Ex4
+cars.remove('Ford')
+print(cars)
+'''
