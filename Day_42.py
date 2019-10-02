@@ -1,5 +1,5 @@
 
-# Ex1
+
 class Person:
 	def __init__(self, name, age):
 		self.name = name
@@ -22,3 +22,6 @@ print("-------------------------")
 
 del p1
 print(p1)
+
+
+
