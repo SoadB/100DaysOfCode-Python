@@ -26,3 +26,4 @@ print(x.graduationyear)
 print("-------------------------")
 
 x.welcom()
+
