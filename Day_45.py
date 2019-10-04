@@ -1,24 +1,15 @@
 
 mytuple = ('apple', 'banana', 'cherry')
 myit = iter(mytuple)
-
-print(next(myit))
-print(next(myit))
-print(next(myit))
+print(next(myit)), print(next(myit)), print(next(myit))
 print("-------------------------")
 
 mystr = 'Python'
 myit = iter(mystr)
-print(next(myit))
-print(next(myit))
-print(next(myit))
-print(next(myit))
-print(next(myit))
-print(next(myit))
+print(next(myit)), print(next(myit)), print(next(myit)), print(next(myit)), print(next(myit)), print(next(myit))
 print("-------------------------")
 
 mytuple = ('apple', 'banana', 'cherry')
-
 for x in mytuple:
 	print(x)
 print("-------------------------")
@@ -27,6 +18,7 @@ mystr = 'Python'
 for x in mystr:
 	print(x)
 print("-------------------------")
+
 
 class MyNumbers:
 	def __iter__(self):
@@ -41,12 +33,7 @@ class MyNumbers:
 
 myclass = MyNumbers()
 myiter = iter(myclass)
-
-print(next(myiter))
-print(next(myiter))
-print(next(myiter))
-print(next(myiter))
-print(next(myiter))
+print(next(myiter)), print(next(myiter)), print(next(myiter)), print(next(myiter)), print(next(myiter))
 print("-------------------------")
 
 
