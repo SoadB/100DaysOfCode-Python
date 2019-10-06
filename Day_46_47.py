@@ -23,5 +23,8 @@ class ScienceSection(Library):
 x = ScienceSection(300, 45)
 x.printcontent()
 print("-------------------------")
-x = ScienceSection(20, 4)
+x.booknum = 20
+x.bookshelf = 4
 x.printcontent()
+
+
