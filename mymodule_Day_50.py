@@ -9,5 +9,3 @@ person1 = {
 	"country": "Norway"
 }
 
-
-print("-------------------------")
