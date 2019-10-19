@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f8220da-83f3-49fc-9eb7-965411d06578" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CalculatorModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/CalculatorModule.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_53_54.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_53_54.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_55.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_55.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,10 +13,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day_55.py">
+        <entry file="file://$PROJECT_DIR$/Day_56.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -84,6 +83,7 @@
         <option value="$PROJECT_DIR$/Day_53_54.py" />
         <option value="$PROJECT_DIR$/CalculatorModule.py" />
         <option value="$PROJECT_DIR$/Day_55.py" />
+        <option value="$PROJECT_DIR$/Day_56.py" />
       </list>
     </option>
   </component>
@@ -130,7 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Day_55">
+  <component name="RunManager" selected="Python.Day_56">
     <configuration name="Day_51" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="100DaysOfCode-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -215,7 +215,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Module" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Day_56" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="100DaysOfCode-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -227,7 +227,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Module.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day_56.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -238,11 +238,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Day_56" />
         <item itemvalue="Python.Day_55" />
         <item itemvalue="Python.Day_53_54" />
         <item itemvalue="Python.Day_52" />
         <item itemvalue="Python.Day_51" />
-        <item itemvalue="Python.Module" />
       </list>
     </recent_temporary>
   </component>
@@ -276,16 +276,13 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" side_tool="true" visible="true" weight="0.33146852" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" side_tool="true" visible="true" weight="0.07552448" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day_3.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day_2.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -611,8 +608,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day_55.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+        <state relative-caret-position="427">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="34" selection-end-line="45" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day_56.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>

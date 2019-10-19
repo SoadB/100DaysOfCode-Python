@@ -1,6 +1,5 @@
 
 import json
-
 # some JSON:
 x = '{ "name" : "John", "age" : 30, "city" : "New York"}'
 
@@ -22,7 +21,7 @@ y = json.dumps(x)
 print(y)
 print("-------------------------")
 
-print(json.dumps({"name" : "John", "age" : 30}))
+print(json.dumps({"name" : "John", "age": 30}))
 print(json.dumps(["apple", "banana"]))
 print(json.dumps(("apple", "banana")))
 print(json.dumps("hello"))
