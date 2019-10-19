@@ -14,4 +14,3 @@ print(x)
 print(x.strftime("%B"))
 print(x.strftime("%A"))
 
-print(x + 1)
