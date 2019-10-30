@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f8220da-83f3-49fc-9eb7-965411d06578" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Day_66.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_66.py" afterDir="false" />
-    </list>
+    <list default="true" id="8f8220da-83f3-49fc-9eb7-965411d06578" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,20 +10,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day_63.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day_67_68.py">
+        <entry file="file://$PROJECT_DIR$/Day_69.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="163">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -45,7 +34,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Day_15.py" />
         <option value="$PROJECT_DIR$/Day_16.py" />
         <option value="$PROJECT_DIR$/Day_17.py" />
         <option value="$PROJECT_DIR$/Day_18_19.py" />
@@ -96,6 +84,7 @@
         <option value="$PROJECT_DIR$/Day_65.py" />
         <option value="$PROJECT_DIR$/Day_66.py" />
         <option value="$PROJECT_DIR$/Day_67_68.py" />
+        <option value="$PROJECT_DIR$/Day_69.py" />
       </list>
     </option>
   </component>
@@ -146,28 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Day_67_68">
-    <configuration name="Day_63" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="100DaysOfCode-Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day_63.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Day_69">
     <configuration name="Day_64" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="100DaysOfCode-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -252,13 +220,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Day_69" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="100DaysOfCode-Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day_69.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Day_69" />
         <item itemvalue="Python.Day_67_68" />
         <item itemvalue="Python.Day_66" />
         <item itemvalue="Python.Day_65" />
         <item itemvalue="Python.Day_64" />
-        <item itemvalue="Python.Day_63" />
       </list>
     </recent_temporary>
   </component>
@@ -292,20 +281,13 @@
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49867898" weight="0.32867134" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.53426576" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.501321" visible="true" weight="0.2881119" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.501321" visible="true" weight="0.22937062" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day_20.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day_24.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -626,8 +608,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day_67_68.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day_69.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
