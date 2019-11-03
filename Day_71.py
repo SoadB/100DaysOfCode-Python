@@ -34,9 +34,11 @@ mycursor.executemany(sql, val)
 mydb.commit()
 print(mycursor.rowcount, "record was inserted.")
 print("-------------------------")
+
+
 print("1 record inserted, ID:", mycursor.lastrowid)
 print("-------------------------")
-'''mycursor.execute("SELECT * FROM customers")
+mycursor.execute("SELECT * FROM customers")
 myresult = mycursor.fetchall()
 for x in myresult:
 	print(x)
@@ -52,7 +54,7 @@ sql = "SELECT * FROM customers WHERE address = 'Mountain 21'"
 mycursor.execute(sql)
 myresult = mycursor.fetchall()
 for x in myresult:
-	print(x)'''
+	print(x)
 sql = "SELECT * FROM customers WHERE address like '%way%'"
 mycursor.execute(sql)
 myresult = mycursor.fetchall()
