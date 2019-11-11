@@ -10,7 +10,6 @@ f = open("Quiz 11.txt", "r")
 print(f.read())
 print("-------------------------")
 
-
 mydb = mysql.connector.connect(
 	host="localhost",
 	user="root",
@@ -18,19 +17,20 @@ mydb = mysql.connector.connect(
 	database="MyEmployee"
 )
 mycursor = mydb.cursor()
-#mycursor.execute("CREATE DATABASE MyEmployee")
-#mycursor.execute("CREATE TABLE Employee (id INT AUTO_INCREMENT PRIMARY KEY, FirstName VARCHAR(255), LastName VARCHAR(255), Age INT, Gender VARCHAR(255), Salary INT)")
+mycursor.execute("CREATE DATABASE MyEmployee")
+mycursor.execute("CREATE TABLE Employee (id INT AUTO_INCREMENT PRIMARY KEY, FirstName VARCHAR(255), "
+                 "LastName VARCHAR(255), Age INT, Gender VARCHAR(255), Salary INT)")
 sql = "INSERT INTO Employee (FirstName, LastName, Age, Gender, Salary) VALUES (%s, %s, %s, %s, %s)"
 val = [
 	("Ahmed", "Ali", 30, "Male", 10000),
-("Khalid", "Muhammad", 34, "Male", 7000),
-("Norah", "Saleh", 29, "Female", 7000)
+	("Khalid", "Muhammad", 34, "Male", 7000),
+	("Norah", "Saleh", 29, "Female", 7000)
 ]
 
 mycursor.executemany(sql, val)
 mydb.commit()
 print(mycursor.rowcount, "record was inserted.")
-'''mycursor.execute("SELECT * FROM Employee")
+mycursor.execute("SELECT * FROM Employee")
 myresult = mycursor.fetchall()
 for x in myresult:
 	print(x)
@@ -46,7 +46,7 @@ myresult = mycursor.fetchall()
 
 for x in myresult:
 	print(x)
-print("-------------------------")'''
+print("-------------------------")
 sql = "DELETE FROM Employee WHERE aGE = 34"
 mycursor.execute(sql)
 mydb.commit()
