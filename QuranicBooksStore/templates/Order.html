@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order</title>
+    <link rel="stylesheet" type="text/css" href="cssFile.css">
+</head>
+<body>
+<header>
+    <br>
+        <h1> مكتبة الكتب القرآنية </h1>
+    </br>
+    <div>
+     <img id="logo" src="../Pictures/logo.jpg" alt="Logo" height="158" width="150">
+    </div>
+</header>
+<div>
+<ul>
+  <li><a class="active" href="Home.html"> الرئيسية </a></li>
+  <li><a href="Overview.html"> عن موقعنا </a></li>
+  <li><a href="Products.html"> المنتجات </a></li>
+  <li><a href="Order.html"> اطلب هنا </a></li>
+  <li><a href="Contact.html"> تواصل معنا </a></li>
+</ul>
+</div>
+<br>
+<br>
+<div id="box1">
+<div>
+<form method="post" action="">
+    <div>
+    <label>اسم المنتج</label>
+        <div>
+        <select id="product_id" name="product_id">
+    <option>تفسير القرآن العظيم لابن كثير</option>
+    <option>الدر المنثور في التفسير بالمأثور</option>
+    <option>كيف تقرأالقران</option>
+    <option>الأصول النيرات في القراءات</option>
+    <option>القراءات روايتا ورش وحفص</option>
+    <option>قصة يوسف عليه السلام</option>
+  </select>
+            </div>
+        </div>
+    <div>
+    <br>
+     <label>نوع المنتج</label>
+    <div>
+        <select id="type_product" name="type_product">
+    <option>كتب علوم القرآن</option>
+    <option>كتب التفاسير</option>
+    <option>كتب القراءات</option>
+  </select>
+            </div>
+        </div>
+    <div>
+    <br>
+     <label>الكمية</label>
+      <div>
+        <select id="quantity" name="quantity">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+  </select>
+            </div>
+        </div>
+    <br> <br>
+    <div id="content">
+        <input type="submit" name="action" value="اضافة منتج">
+        <br> <br>
+
+    </div>
+    <div>
+        <input id="submit" type="submit" value="ارسال الطلب">
+    </div>
+
+</form>
+</div>
+</div>
+<div>
+    <footer>
+        <p>
+            جميع الحقوق محفوظة 2019
+        </p>
+    </footer>
+</div>
+</body>
+</html>

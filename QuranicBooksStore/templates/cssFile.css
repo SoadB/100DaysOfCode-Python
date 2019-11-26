@@ -136,6 +136,7 @@ margin: 5px;
 #box1{
   background-color: lightgrey;
   width: 300px;
+  height: 300px;
   border: 1px solid black;
   padding: 50px;
   margin: auto;
@@ -150,4 +151,33 @@ color: white;
 height: 50px;
 width: 100px;
 font-size:130%;
+}
+.button {
+  background-color: white;
+  border: 1px solid black;
+  color: green;
+  padding: 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 6px 6px;
+}
+.button1 {
+border-radius: 50%;
+}
+#proname
+{
+min-width: 200px;
+}
+#proname1
+{
+min-width: 200px;
+}
+#proname2
+{
+min-width: 200px;
+}
+#op{
+text_align: right;
 }
